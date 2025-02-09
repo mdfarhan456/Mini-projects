@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Frijole&display=swap');
+
+#wrapper{
+    width: 350px;
+    height: 350px;
+   background-color: rgba(210, 105, 30, 0.648);
+   border-radius: 20px;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    justify-content: space-between;
+   
+}
+body{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+     justify-content: center; 
+    align-items: center; 
+    font-family: 'Frijole';
+
+
+    
+    
+}
+#box1{
+    width: 150px;
+    height: 150px;
+    background-color: chocolate;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: 100px;
+    opacity: 0;
+    
+    
+}
+
+#box1 div{
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px;
+    
+
+}
+
+#box2{
+    width: 150px;
+    height: 150px;
+    background-color: chocolate;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    position: absolute;
+    padding: 10px;
+    opacity: 0;
+    margin-top: 100px;
+}
+
+#box2 div{
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px;
+    
+    
+
+}
+
+#box3{
+    width: 150px;
+    height: 150px;
+    background-color: chocolate;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    position: absolute;
+    padding: 10px;
+    margin-top: 100px;
+    opacity: 0;
+}
+
+#box3 div{
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    margin: 15px;
+    box-shadow: 3px 3px 3px 3px;
+    
+} 
+
+#box4 {
+    width: 150px;
+    height: 150px;
+    background-color: chocolate;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    position: absolute;
+    padding: 10px;
+    margin-top: 100px;
+    opacity: 0;
+  }
+  
+  #box4 div {
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 3px 3px 3px 3px;
+  }
+  
+
+  #box5 {
+    width: 150px;
+    height: 150px;
+    background-color: chocolate;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    position: absolute;
+    padding: 10px;
+    margin-top: 100px;
+    opacity: 0;
+  }
+  
+  #box5 div {
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    margin: 10.1px;
+    box-shadow: 3px 3px 3px 3px;
+  }
+ 
+
+  #box6 {
+    width: 150px;
+    height: 150px;
+    background-color: chocolate;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    position: absolute;
+    padding: 10px;
+    margin-top: 100px;
+    opacity: 0; 
+    
+
+  } 
+  
+
+  
+  #box6 div {
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    margin: 11px;
+    box-shadow: 3px 3px 3px 3px;
+  } 
+
+  #cd{
+    margin: 20px;
+   font-size: larger;
+   font-weight: bolder;
+    
+  }
+  button{
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Frijole';
+    background-color: rgb(56, 52, 52);
+    color: white;
+  }
+
+  img{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    transform-style: preserve-3d;
+    animation: roll 2s ;
+
+  
+  }
+  @keyframes roll {
+    0% {
+      transform: rotateX(0deg) rotateY(0deg);
+    }
+    100% {
+      transform: rotateX(360deg) rotateY(360deg);
+    }
+  }  
+
+
+  
