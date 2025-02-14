@@ -1,5 +1,8 @@
 let c;
 let h;
+let alarmTriggered = false;
+
+
 
 
 let str=()=>{
@@ -9,7 +12,7 @@ let str=()=>{
     let box=document.querySelector("#box")
     box.style.display = "block";
     box.innerHTML = `<p>Alarm set for: ${set}</p>`;
-     head.style.display="none"
+ 
 
     c= setInterval(() => {
         let t = new Date()
@@ -19,8 +22,11 @@ let str=()=>{
         if(currenttime==set){
             head.innerHTML="Alarm is ringing..."
             audio.play();
+            
         }
-     
+     else{
+        head.innerHTML=""
+     }
 
       }, 1000);
     
@@ -29,10 +35,12 @@ let str=()=>{
 let stp=()=>{
     let head=document.querySelector("#head")
     let audio=document.querySelector("#audio")
-    head.style.display="block"
     head.innerHTML="Alarm has stopped..."
         audio.pause()
         clearInterval(c)
+     
+
+        
   
 
 }
