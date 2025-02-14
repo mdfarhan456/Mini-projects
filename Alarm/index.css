@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('clock-img.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#box{
+    height: 150px;
+    width: 150px;
+    border-radius: 150px    ;
+    background-color: rgba(245, 245, 245, 0.312);
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    justify-content: center;
+
+    padding: 15px;
+
+    display: none;
+    text-align: center; 
+   
+    
+    
+   
+    
+}
+
+#box p {
+   margin-top: 50px;
+   font-size: larger;
+    }
+    
+    
+#div button{
+    margin-left: 10px;
+  
+}
+#st{
+    background-color: rgb(8, 137, 8);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    font-size: large;
+   
+}
+#sp{
+    background-color: red;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    font-size: large;
+}
+
+
