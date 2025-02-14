@@ -1,10 +1,4 @@
 let c;
-let h;
-let alarmTriggered = false;
-
-
-
-
 let str=()=>{
     let set=document.querySelector("#set-time").value;
     let head=document.querySelector("#head")
